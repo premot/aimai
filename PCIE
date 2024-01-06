@@ -1,0 +1,1 @@
+lspci -vv |grep -E 'PCI bridge|LnkCap' |grep GT
